@@ -8,18 +8,18 @@
     <script>
     function encode() {
       var encodestr = window.prompt("Type something to encode");
-      if (!encodestr == null) {
+      
         var out = window.btoa(encodestr);
         document.getElementById("output").innerHTML = out;
-      }
+      
     }
     
     function decode() {
       var decodestr = window.prompt("Type something to decode");
-      if (!decodestr == null) {
+      
         var out = window.atob(decodestr);
         document.getElementById("output").innerHTML = out;
-      }
+      
     }
     </script>
   </head>

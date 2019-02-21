@@ -8,18 +8,14 @@
     <script>
     function encode() {
       var encodestr = window.prompt("Type something to encode");
-      
-        var out = window.btoa(encodestr);
-        document.getElementById("output").innerHTML = out;
-      
+      var out = window.btoa(encodestr);
+      document.getElementById("output").innerHTML = out;
     }
     
     function decode() {
       var decodestr = window.prompt("Type something to decode");
-      
-        var out = window.atob(decodestr);
-        document.getElementById("output").innerHTML = out;
-      
+      var out = window.atob(decodestr);
+      document.getElementById("output").innerHTML = out;
     }
     </script>
   </head>
@@ -33,7 +29,6 @@
     </nav>
     <h1>Base64 converter</h1>
     <p id="output"></p>
-    <p><button onclick="encode()">encode</button></p>
-    <p><button onclick="decode()">decode</button></p>
+    <p><button onclick="encode()">encode</button>&nbsp;<button onclick="decode()">decode</button></p>
   </body>
 </html>

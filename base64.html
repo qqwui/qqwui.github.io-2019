@@ -8,13 +8,13 @@
     <script>
     function encode() {
       var encodestr = window.prompt("Type something to encode");
-      var out = window.btoa(str);
+      var out = window.btoa(encodestr);
       document.getElementById("output").innerHTML = out;
     }
     
     function decode() {
       var decodestr = window.prompt("Type something to decode");
-      var out = window.atob(decodedstr);
+      var out = window.atob(decodestr);
       document.getElementById("output").innerHTML = out;
     }
     </script>

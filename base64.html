@@ -9,13 +9,13 @@
     function encode() {
       var encodestr = window.prompt("Type something to encode");
       var out = window.btoa(encodestr);
-      document.getElementById("output").innerHTML = out;
+      document.getElementById("output").innerHTML = "Encoded: " + out;
     }
     
     function decode() {
       var decodestr = window.prompt("Type something to decode");
       var out = window.atob(decodestr);
-      document.getElementById("output").innerHTML = out;
+      document.getElementById("output").innerHTML = "Decoded: " + out;
     }
     </script>
   </head>

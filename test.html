@@ -20,7 +20,8 @@
     </script>
   </head>
   <body>
-    <div onmousemove="getCoor(event)"></div>
+    <div onmousemove="getCoor(event)" onmouseout="this.innerHTML = ''"></div>
     <p id="demo"></p>
+    <button onclick="window.close()">Close</button>
   </body>
 </html>

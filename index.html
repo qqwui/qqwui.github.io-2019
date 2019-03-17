@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" href="icon.ico" type="image/x-icon">
-    <script>
-    function openWin() {
-     var win = window.open('test.html', 'width=300,height=150');
-    } 
-    </script>
+    
   </head>
   <body>
     <nav>
@@ -24,5 +20,10 @@
     <p>This is a work in progress.</p>
     <p>See <a href="new.html">What's New</a> for history of site.</p>
     <button onclick="openWin()">Click Me!</button>
+    <script>
+    function openWin() {
+     var win = window.open('test.html', "MsgWindow", 'width=300,height=150');
+    } 
+    </script>
   </body>
 </html>
